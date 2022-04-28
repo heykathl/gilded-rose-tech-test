@@ -40,7 +40,7 @@ class Shop {
             if (this.items[i].sellIn < 11) {
               //quality no more than 50
               if (this.items[i].quality < 50) {
-                // quality increases in value daily (amend to by 2)
+                // quality increases in value daily 
                 this.items[i].quality = this.items[i].quality + 1;
               }
             }
@@ -48,7 +48,7 @@ class Shop {
             if (this.items[i].sellIn < 6) {
               //quality no more than 50
               if (this.items[i].quality < 50) {
-                // quality increases in value daily (amend to by 3)
+                // quality increases in value daily
                 this.items[i].quality = this.items[i].quality + 1;
               }
             }
