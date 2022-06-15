@@ -10,6 +10,14 @@ class Shop {
   constructor(items = []) {
     this.items = items;
   }
+
+  // agedBrie(){
+  //   for (let i = 0; i < this.items.length; i++) {
+  //     if(this.items[i].name === "Aged Brie"){
+
+  //     } 
+  //   }
+  // }
   updateQuality() {
     for (let i = 0; i < this.items.length; i++) {
       // is not aged brie - it increases in quality the older it gets
